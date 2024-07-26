@@ -11,7 +11,9 @@
 </head>
 <body>
 
-    {{$slot}}
+    <x-navbar></x-navbar>
+
+    {{ $slot }}
     
     
 </body>
